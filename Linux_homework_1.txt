@@ -1,0 +1,51 @@
+   0 cd /home
+   1 mkdir animals
+   2 cd animals
+   3 mkdir dogs
+   4 mkdir cats
+   5 mkdir fish
+   6 tree /home
+   7 touch /home/animals/cats/garfield.txt
+   8 touch /home/animals/dogs/pluto.txt
+   9 touch /home/animals/fish/nemo.txt
+  10 tree /home
+  11 cd /home
+  12 mkdir planets
+  13 tree /home
+  14 cd /opt
+  15 touch Mercury.txt
+  16 touch Venus.txt
+  17 touch Mars.txt
+  18 tree /home
+  19 tree /opt
+  20 mv /opt/Mercury.txt /home/planets/
+  21 touch Jupiter.txt
+  22 mv /opt/Venus.txt /home/planets/
+  23 mv /opt/Mars.txt /home/planets
+  24 mv /opt/Jupiter.txt /home/planets/
+  25 tree /home
+  26 tree /opt
+  27 cd /tmp
+  28 touch adam
+  29 touch adam.txt
+  30 tree /tmp
+  31 rm /tmp/adam
+  32 tree /tmp
+  33 mkdir -p /home/humans
+  34 tree /home
+  35 cp /tmp/adam.txt /home/humans/
+  36 tree /home
+  37 tree /tmp
+  38 touch evA.txt
+  39 tree /home
+  40 tree /tmp
+  41 mv /tmp/evA.txt /opt/eve.txt
+  42 tree /opt
+  43 tree /tmp
+  44 mv /opt/eve.txt /home/humans/
+  45 tree /home
+  46 cd /home
+  47 cd /humans
+  48 cd humans/
+  49 ls -la
+  50 history > Linux_homework_1.txt
